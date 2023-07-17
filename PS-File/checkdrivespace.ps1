@@ -16,7 +16,7 @@
 	Author: Markus Fleschutz | License: CC0
 #>
 
-param([string]$Drive = "", [int]$MinLevel = 20) # minimum level in GB
+param([string]$Drive = "", [int]$MinLevel = 10) # minimum level in GB
 
 try {
 	if ($Drive -eq "" ) { $Drive = read-host "Enter drive to check" }
